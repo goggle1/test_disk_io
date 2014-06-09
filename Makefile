@@ -56,7 +56,7 @@ CXXFLAGS  := -g -Wall -Wno-write-strings -O0
 
 # The library and the link options ( C and C++ common).
 LDFLAGS   :=
-LDFLAGS   += -lpthread
+LDFLAGS   += -laio
 #LDFLAGS   += -lxml2 -Wl,-Bstatic -L./librtmp/ -lrtmp -Wl,-Bdynamic # link static librtmp.a
 #LDFLAGS   += -lz -lgnutls  -lgcrypt -lssl -lcrypto # .so used by librtmp.a
 
